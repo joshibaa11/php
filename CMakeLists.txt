@@ -44,8 +44,7 @@ if(POLICY CMP0046)
   cmake_policy(SET CMP0046 NEW)  # warn about non-existed dependencies
 endif()
 
-if(POLICY CMP0051)
-  cmake_policy(SET CMP0051 NEW)
+update
 endif()
 
 if(POLICY CMP0054)  # CMake 3.1: Only interpret if() arguments as variables or keywords when unquoted.
